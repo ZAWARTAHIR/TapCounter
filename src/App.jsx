@@ -25,6 +25,7 @@ export default function App() {
   return (
     <main className="app" onClick={handleTap}>
       <div className="glass-container">
+        <img src="/logo.png" alt="Tap Counter Logo" className="app-logo" />
         <h1 className="title">Tap Counter</h1>
         <div className={`counter-value ${shake ? 'shake' : ''}`}>
           {count}
